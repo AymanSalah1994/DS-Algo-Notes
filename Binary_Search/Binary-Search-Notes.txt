@@ -1,0 +1,21 @@
+1-First of All , This Search Works only when Data is "SORTED" , Otherwise it will not work  ; 
+
+2-Three Key Facotrs in BS : 
+    - StartIndex  , EndIndex  , MiddleIndex (We Deal with index, if no result the index returned is -1 )
+
+
+It is Clear and Simple in its implementation 
+
+[ StartIndex <= EndIndex ]
+ Because if They Crossed Then there is No Result  ; 
+
+In BS with Recursion  , We Take the opposite Condition as the Base Case like Below : 
+(startIndex > endIndex)
+But Keep in mind In Recursion we Need {StartIndex , EndIndex , ArrayToBeSentForSeach }
+
+****NOTE:
+In the C++ Code for BS Recursion you will find a Fourth argument Which is " LengthOfArray" 
+there is NO NEED for it ,But i kept it ; 
+ =========================================
+
+
