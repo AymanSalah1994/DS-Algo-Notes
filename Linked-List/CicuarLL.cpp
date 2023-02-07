@@ -38,6 +38,11 @@ public:
         {
             // LL is Empty
             last->next = newNode  ;
+            newNode->next = last  ;
+            // This is the First Node , It also Points To Last 
+            // Any New Node will Be Inserted But this Node will still refer to 
+            // Last 
+            // In other Words to keep the Circle 
         }
         else
         {
