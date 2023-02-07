@@ -1,0 +1,25 @@
+Recursion Rules : 
+    - Recursion is a Function [ And inside this Function you will find it Call itself ]
+        $ - So i think no problem to call it a " Recursion Function "
+
+    - Recursion can be replaced By Loops [ or thought of as a Loop ]
+        [
+            This is not a Rule , But you know if you can connect them both , nearly many loops Can be applid using Recursion and Vice versa  . 
+            But of Course , Each has its pros , cons and Usages  ; 
+        ]
+
+    -Recursion Function Should Have at least two pillars : [ Using If & else ]
+        1- Base Case  :
+            Where the Function Ends and It does NOT call itself , it  returns something atomic 
+            [Base Case is Like the Break Point in Loop ]
+
+        2- Other cases : 
+            Where the Function Calls itself again 
+
+In Recursion the last Call of Function in the stack is the First to be Executed (From the Stack ) ; 
+    - To Understand , Check the "Print-Array-Recursion.cpp" File . and Take a look at the notes in Comments 
+
+Stack Overflow is a Common Problem that Happens Because of it  ; 
+
+
+
