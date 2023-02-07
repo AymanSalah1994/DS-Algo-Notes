@@ -1,0 +1,4 @@
+Stack As a linked List Is Simple as an Idea  :
+You push and Pop From One Direction  ( Head Or Tail )
+In the Implementation you will Find That , The Stack Class is Just a "Wrapper" Around the Linked List Class 
+

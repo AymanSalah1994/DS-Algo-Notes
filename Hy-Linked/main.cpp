@@ -11,7 +11,7 @@ struct node
     node* next  ;
     node* prev  ;
 };
-
+ 
 class LinkedList
 {
 private :
