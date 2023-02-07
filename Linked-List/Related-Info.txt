@@ -1,0 +1,7 @@
+Operations : 
+    Insertion  , add
+    Deletion  , remove
+    Searching 
+    [ ] It is a Linear DS in General , Put this in mind 
+
+--> Copmlexity of Operations : [ Space and Time ]
