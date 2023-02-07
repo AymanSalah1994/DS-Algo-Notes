@@ -1,0 +1,13 @@
+The idea : 
+    If i have an Array , And I make a Loop (Just One Single Loop ) to Compare [ First and Second , Second and Third , Third and Fourth... etc ] This Loop { Depending on comparing ">" Or "<" Will ALWAYS either Put the larget Or smallest To the right-most or Left-Most of the Array }
+
+    The Question is : IF One Loop Sort always One Element correctly using this Idea of Inclusive Comparison , What if i WRAP this Loop inside another Loop For N times , Where N is number of all Elemetns ? 
+    
+    Answer :: ... Exactly ! All Array Elements will be Sorted !
+    This is Bubble Sort !
+
+
+=======================
+Time Complexity : O(n**2) >>> [n * n] Or n squared 
+Space Complexity : O(1) >> We only Need One Constant Place to Hold the Temporary Value for Swapping !
+

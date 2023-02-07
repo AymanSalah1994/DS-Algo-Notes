@@ -1,0 +1,24 @@
+Quick Sort in a Nutshell : 
+    - You choose an Element  as a pivot [ Start Or End Element "Does NOT matter" ] this element is the pivot .
+
+    - Now Pick an "Index Out Of Range"  , this out of range index is opposite to the pivot Element 
+        - If you Pick Start Element as Pivot then the (Out of Range index is endIndex+1 )
+        - If you Pick End Element as Pivot then the (Out of Range index is startIndex-1 )
+
+    - Now Loop on the Array elements and Compare each element to pivot 
+        - Based on this Comparing you will swap Elements [ Populate them starting from after the "Out of range index"]
+
+    - After the loop Finish , put the pivot in the index that comes after the last index that had Swap .
+        - if 3 items were swapped in indexes 1,2,3 THEN you put pivot in Index 4 so that Pivot is in the middle between 
+        Big items and small items 
+
+    
+    - Return Back the New index for pivot , So that we Can divide the array into smaller parts (partial arrays) and Each partial array will also have a pivot where bigs (Big numbers) are in a side and smalls are in another side  .
+
+
+=============
+Complexity : 
+    - For Quick Sort it is O(n*n) 
+        But Some Refrences Consider the "Log" Complexity Although we Always Calculate the Worst case  ; 
+
+

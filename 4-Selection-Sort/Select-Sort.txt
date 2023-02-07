@@ -1,0 +1,16 @@
+The Main Idea : 
+    Selection Sort is Really Clear , You First Consider If you Want to Sort [Asc Or Desc ]
+
+    And You Will Have to Make as Always Two Loops : 
+
+        - In the Outer , Every Time you Pick(SELECT) an Index , and Increase this Index in Each Iteration
+        ( Nothing new about this ) , The SELECTED index Is Either the NextMinimumIndex OR NextMaximumIndex
+        Depending on what sort you want [ Ascending or Descending ]
+
+        - In the Inner loop : 
+            You will Loop through all Elements AFTER the SELECTED index and Compare them with the SELECTED item , If their values  Smaller/Bigger Then You will Swap , But you will Continue the loop "till the End of the Array" so that the last Swap is the Valid Swap .
+
+================
+Complexity : 
+Time >> O(n*n) {Two Nested loops }
+Space >> O(1)   { Only swapping space }
